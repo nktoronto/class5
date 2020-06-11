@@ -40,5 +40,5 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build NK_axios.surge.sh --token ${{ secrets.class5 }}
+      run: surge ./build NKaxios.surge.sh --token ${{ secrets.class5 }}
 
